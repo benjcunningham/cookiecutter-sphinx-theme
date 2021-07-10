@@ -3,7 +3,8 @@
 </h1>
 
 This is a [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template
-for creating a custom Sphinx theme based on [Read the Docs]().
+for creating a custom Sphinx theme based on the ubiquitous [Read the Docs
+theme](https://sphinx-rtd-theme.readthedocs.io/en/stable/).
 
 ## Quickstart
 
