@@ -1,5 +1,5 @@
 <h1 align="center">
-🍪 cookiecutter-document-comparison
+🍪 cookiecutter-sphinx-theme
 </h1>
 
 This is a [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template
