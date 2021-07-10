@@ -1,0 +1,2 @@
+include README.md
+recursive-include src/{{ cookiecutter.repo_name.replace('-', '_') }} *.conf *.css *.html *.svg
