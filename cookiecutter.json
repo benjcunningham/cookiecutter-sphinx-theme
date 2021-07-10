@@ -1,0 +1,7 @@
+{
+  "author_name": "Ben Cunningham",
+  "author_email": "benjcunningham@example.com",
+  "author_username": "benjcunningham",
+  "theme_name": "custom",
+  "repo_name": "sphinx-{{ cookiecutter.theme_name }}-theme"
+}
