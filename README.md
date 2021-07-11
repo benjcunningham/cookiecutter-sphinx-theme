@@ -2,6 +2,12 @@
 🍪 cookiecutter-sphinx-theme
 </h1>
 
+<p align="center">
+  <a href="https://github.com/benjcunningham/cookiecutter-sphinx-theme/actions/workflows/tests.yaml">
+    <img alt="tests" src="https://github.com/benjcunningham/cookiecutter-sphinx-theme/actions/workflows/tests.yaml/badge.svg">
+  </a>
+</p>
+
 This is a [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template
 for creating a custom Sphinx theme based on the ubiquitous [Read the Docs
 theme](https://sphinx-rtd-theme.readthedocs.io/en/stable/).
