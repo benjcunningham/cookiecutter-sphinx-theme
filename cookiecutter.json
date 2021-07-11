@@ -3,5 +3,8 @@
   "author_email": "benjcunningham@example.com",
   "author_username": "benjcunningham",
   "theme_name": "custom",
-  "repo_name": "sphinx-{{ cookiecutter.theme_name }}-theme"
+  "repo_name": "sphinx-{{ cookiecutter.theme_name.replace(' ', '-').replace('_', '-') }}-theme",
+  "import_name": "{{ cookiecutter.repo_name.replace('-', '_') }}",
+  "repo_url": "https://github.com/{{ cookiecutter.author_username }}/{{ cookiecutter.repo_name }}",
+  "docs_url": "https://{{ cookiecutter.author_username }}.github.io/{{ cookiecutter.repo_name }}"
 }

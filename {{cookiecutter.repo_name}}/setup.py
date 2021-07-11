@@ -19,7 +19,7 @@ setup(
     description="Custom Sphinx theme based on Read the Docs",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
-    url="https://github.com/{{ cookiecutter.author_username }}/{{ cookiecutter.repo_name }}",
+    url="{{ cookiecutter.repo_url }}",
     package_dir={"": "src"},
     packages=find_packages("src"),
     install_requires=[
