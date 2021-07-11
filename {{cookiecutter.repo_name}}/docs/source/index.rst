@@ -19,7 +19,7 @@ Install the theme by adding the following to your library's ``setup.py``:
     extras = {
         ...
         "docs": [
-            "{{ cookiecutter.import_name }} @ {{ cookiecuter.repo_url }}",
+            "{{ cookiecutter.import_name }} @ {{ cookiecutter.repo_url }}",
         ],
     }
 
