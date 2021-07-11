@@ -7,7 +7,7 @@ sys.path.insert(0, os.path.abspath("../../src"))
 sys.path.append(os.path.abspath("./demo/"))
 
 project = "{{ cookiecutter.repo_name }}"
-copyright = "{}, {}. All rights reserved.".format(datetime.datetime.now().year)
+copyright = "{}, {}.".format(datetime.datetime.now().year, {{ cookiecutter.author_name }})
 author = "{{ cookiecutter.author_name }}"
 
 extensions = [
