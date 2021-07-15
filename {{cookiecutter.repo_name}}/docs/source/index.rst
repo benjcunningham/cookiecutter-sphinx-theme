@@ -39,7 +39,7 @@ In your Sphinx ``conf.py``, make sure to include the following:
 
     html_theme = "{{ cookiecutter.import_name }}"
 
-Either build the documentation from your current branch using a tradition Sphinx build
+Either build the documentation from your current branch using a traditional Sphinx build
 script, or build a versioned site using the following:
 
 .. code:: bash
