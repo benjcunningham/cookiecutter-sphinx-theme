@@ -1,3 +1,4 @@
+{% raw -%}
 name: documentation
 on:
   push:
@@ -19,3 +20,4 @@ jobs:
       run: make gh-pages
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+{%- endraw %}
