@@ -2,6 +2,19 @@
 
 check_dirs := setup.py tests
 
+clean:
+	rm -rf docs/build
+
+docs: clean
+ifeq ($(origin smv), undefined)
+	sphinx-build -M html docs/source docs/build
+else
+	sphinx-multiversion docs/source docs/build
+endif
+
+gh-pages:
+	.ci/gh-pages.sh
+
 install:
 	pip install -e ".[dev]"
 
