@@ -6,11 +6,14 @@ with open("README.md", "r", encoding="utf-8") as file:
 
 
 extras = {
+    "docs": [
+        "sphinx-benjcunningham-theme @ git+https://github.com/benjcunningham/sphinx-benjcunningham-theme",  # noqa: E501
+    ],
     "quality": ["black", "flake8", "isort"],
     "testing": ["pytest", "pytest-cookies"],
 }
 
-extras["dev"] = extras["quality"] + extras["testing"]
+extras["dev"] = extras["docs"] + extras["quality"] + extras["testing"]
 
 setup(
     name="cookiecutter-sphinx-theme",
