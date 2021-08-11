@@ -6,6 +6,9 @@
   <a href="https://github.com/benjcunningham/cookiecutter-sphinx-theme/actions/workflows/tests.yaml">
     <img alt="tests" src="https://github.com/benjcunningham/cookiecutter-sphinx-theme/actions/workflows/tests.yaml/badge.svg">
   </a>
+  <a href="https://github.com/benjcunningham/cookiecutter-sphinx-theme/actions/workflows/documentation.yaml">
+    <img alt="tests" src="https://github.com/benjcunningham/cookiecutter-sphinx-theme/actions/workflows/documentation.yaml/badge.svg">
+  </a>
 </p>
 
 This is a [Cookiecutter](https://github.com/cookiecutter/cookiecutter) template
